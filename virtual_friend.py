@@ -259,7 +259,7 @@ if __name__ == '__main__':
             else:
                 speak(" City Not Found ")
 
-        # general and fuuny instructions and commainds
+        # general and funny instructions and commands
         elif 'how are you' in query:
             speak("I am fine, Thank you")
             print("I am fine, Thank you"+ " What about you")
@@ -388,7 +388,7 @@ if __name__ == '__main__':
 
         
                     
-        elif "hey sony" in query:
+        elif "hey " in query:
             speak("hello friend"+ name)
 
         elif "send message " in query:
