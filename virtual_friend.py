@@ -414,7 +414,7 @@ if __name__ == '__main__':
             speak("How are you ")
             speak(name)
 
-        # most asked question from google Assistant
+        # Most asked question from Google Assistant
         elif "will you be my gf" in query or "will you be my bf" in query:
             speak("No  it is not possible" )
             time.sleep(0.5)
@@ -422,10 +422,8 @@ if __name__ == '__main__':
 
         elif "how are you" in query:
             speak("I'm fine")
-
         
         elif "what is" in query or "who is" in query:
-
             # Use the same API key
             # that we used earlier
             client = wolframalpha.Client('AUQY6R-HQUXKAUV8K')
