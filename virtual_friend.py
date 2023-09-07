@@ -125,7 +125,7 @@ if __name__ == '__main__':
         # All the commands said by user will be
         # stored here in 'query' and will be
         # converted to lower case for easily
-        # recognition of command
+        
         if 'wikipedia' in query:
             speak('Searching Wikipedia...')
             print('Searching Wikipedia...')
